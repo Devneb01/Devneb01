@@ -13,13 +13,38 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.languages.svg
-          base: ""
+          filename: metrics.svg
+          theme: tokyo-night
+
+          # Base : infos générales + activité récente
+          base: header, activity, community, repositories
+
+          # Calendrier de contributions isométrique (visuellement fort)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Langages : analyse en profondeur = inclut tes vrais commits, même chez Kalisio
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 15
-          plugin_languages_recent_categories: production, markup
           plugin_languages_ignored: html, css
-          plugin_languages_limit: 12
+          plugin_languages_limit: 10
+          plugin_languages_details: bytes-size
           commits_authoring: Devneb01
-          theme: tokyo-night
+
+          # Habitudes de code (horaires, jours actifs)
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_facts: yes
+
+          # Repos mis en avant
+          plugin_repositories: yes
+          plugin_repositories_featured: kalisio/service-ekosystem
+
+          # Achievements (badges de progression GitHub)
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+
+          # Contributions notables dans des organisations (Kalisio apparaîtra ici)
+          plugin_notable: yes
+          plugin_notable_from: organization
