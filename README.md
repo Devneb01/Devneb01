@@ -11,6 +11,22 @@ at **Kalisio** — Node.js, FeathersJS, real-time API, deployed to production.
 
 ![GitHub stats](https://github-readme-stat-nine-amber.vercel.app/api?username=Devneb01&show_icons=true&count_private=true&theme=tokyonight)
 
+### 🚀 Open Source Contributions
+**[Kalisio / Service Ekosystem](https://github.com/kalisio/service-ekosystem)**
+
+**[Kalisio / Vitepress Theme Kalisio](https://github.com/kalisio/vitepress-theme-kalisio)**
+
+**[Kalisio / Service katalog ](https://github.com/kalisio/service-ekosystem/tree/master/packages/service-katalog)**
+
+**[Kalisio / other ](https://github.com/kalisio/)**
+
+
+
+---
+
+### 📊 GitHub Activity
+![Ali's GitHub stats](https://github-readme-stats.vercel.app/api?username=Devneb01&show_icons=true&theme=radical)
+
 
 </div>
 
