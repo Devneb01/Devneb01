@@ -6,7 +6,7 @@ Software engineering student at CESI Montpellier (Bac+5, 2024–2029), looking f
 apprenticeship starting October 2026. Recently built **Katalog** (shared GIS layer catalog) 
 at **Kalisio** — Node.js, FeathersJS, real-time API, deployed to production.
 
-# 🚀 Currently working on: **[Verify Docs](https://github.com/Devneb01/verify-doc)**
+# 🚀 Currently working on Next.js project: **[Verify Docs](https://github.com/Devneb01/verify-doc)**
 
 
 [![Gmail](https://img.shields.io/badge/-chahbouniali37@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:chahbouniali37@gmail.com)
